@@ -26,7 +26,8 @@ console.log = function(...args){
 function success(response, data) {
   const defaultData = {
     success: true,
-    content: data || '',
+    msg: "请求成功",
+    result: data || '',
   }
 
   send(response, 200, defaultData);
@@ -35,6 +36,8 @@ function success(response, data) {
 function error(response, data) {
   const defaultData = {
     success: false,
+    msg: "请求失败",
+    result: data || '',
   }
 
   if (typeof data !== 'object') {
