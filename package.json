@@ -1,0 +1,36 @@
+{
+  "name": "rongcloud",
+  "version": "0.0.1",
+  "main": "index.js",
+  "scripts": {
+    "dev": "node-dev index.js",
+    "serve": "node index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bufferhelper": "0.2.1",
+    "chalk": "2.0.1",
+    "express": "4.15.3",
+    "express-ws": "3.0.0",
+    "iconv-lite": "0.4.18",
+    "jquery": "3.2.1",
+    "moment": "2.18.1",
+    "promise": "8.0.1",
+    "request": "2.81.0",
+    "request-promise": "4.2.1",
+    "sha1": "^1.1.1",
+    "uuid": "3.1.0",
+    "websocket": "1.0.24"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://youpinyao@github.com/youpinyao/rongcloud.git"
+  },
+  "bugs": {
+    "url": "https://github.com/youpinyao/rongcloud/issues"
+  },
+  "homepage": "https://github.com/youpinyao/rongcloud#readme",
+  "description": ""
+}
